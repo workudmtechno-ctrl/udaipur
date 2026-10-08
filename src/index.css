@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #1a1a1e;
+    background-color: #faf5f5;
+  }
+}
+
+.font-script {
+  font-family: 'Kaushan Script', 'Dancing Script', cursive;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+/* LOCANTOZ Theme Colors (Vibrant Brand Red #e61924) */
+:root {
+  --brand-red: #e61924;
+  --brand-red-dark: #b8101a;
+  --brand-red-light: #ff2d3b;
+}
+
+.bg-primary-red {
+  background-color: #e61924;
+}
+
+.text-primary-red {
+  color: #e61924;
+}
+
+.border-primary-red {
+  border-color: #e61924;
+}
+
+.bg-accent-red {
+  background-color: #dc2626;
+}
+
+.bg-soft-red {
+  background-color: #fee2e2;
+}
+
+.bg-banner-red {
+  background-color: #e61924;
+}
+
+/* Custom scrollbar matching Locantoz Red */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #181518;
+}
+::-webkit-scrollbar-thumb {
+  background: #e61924;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8101a;
+}

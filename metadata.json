@@ -1,0 +1,8 @@
+{
+  "name": "Heaven Girls Chandigarh",
+  "description": "Heaven Girls - Premier companionship and escorts service directory showcase for Chandigarh with verified profiles, gallery, and contact features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
